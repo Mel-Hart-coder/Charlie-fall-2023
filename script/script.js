@@ -16,7 +16,7 @@ $( document ).ready(function() {
   start: function(){
     
     if ($('#dogememe').position().left > 500){
-       $('#something').show();
+       $("p").show();
       }
     else if($('#dogememe').position().left > 300 && $('#dogememe').position().left < 500){
     $('#something').text("You found the wows!");
